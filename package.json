@@ -1,0 +1,49 @@
+{
+  "name": "toast-ui-next-editor",
+  "version": "1.0.0",
+  "description": "Toast ui react editor using next.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "repository": "https://github.com/trustyoo86/toast-ui-next-editor",
+  "author": "HanseungYoo<trustyoo86@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "3.2.2",
+    "@toast-ui/editor-plugin-table-merged-cell": "3.0.2",
+    "@toast-ui/react-editor": "3.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-dynamic-import-vars": "^2.1.2",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.10.2",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "8.1.0",
+    "eslint-config-next": "13.4.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-with-tsc-error": "^0.0.8",
+    "path": "^0.12.7",
+    "rollup": "^4.6.1",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript-paths": "^1.4.0",
+    "typescript": "5.1.3"
+  }
+}
