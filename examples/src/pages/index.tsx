@@ -2,12 +2,9 @@ import React from 'react';
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 
-import { Editor, TEditorInstance } from '../../../dist/index';
-import { useRef } from 'react'
+import ExampleEditor from '@/components/ExampleEditor';
 
 export default function Home() {
-  const editorRef = useRef<TEditorInstance>(null);
-
   return (
     <>
       <Head>
@@ -23,7 +20,7 @@ export default function Home() {
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
           <div>
-            <Editor ref={editorRef} />
+            <ExampleEditor />
           </div>
         </div>
       </main>
